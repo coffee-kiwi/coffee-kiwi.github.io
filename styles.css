@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Display flex and center */
+header,
+nav,
+footer,
+.footer-left,
+.intro,
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+svg {
+    width: 2rem;
+    height: auto;
+    border-radius: 8px;
+    transition: background-color 0.25s ease-out;
+}
+
+svg:hover {
+    background-color: lightslategray;
+}
+
+.icons {
+    display: flex;
+}
+
+header img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header {
+    padding: 24px 16px;
+    gap: 24px;
+}
+
+nav {
+    flex-direction: row;
+    height: 10vh;
+    gap: 2%;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.languages svg {
+    width: 8rem;
+    height: auto;
+}
+
+.learning {
+    opacity: 0.75;
+}
+
+.project-list {
+    display: grid;
+    grid-auto-flow: column;
+    /* grid-auto-columns: 300px; */
+    gap: 1rem;
+    padding: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Touch tracking for mobile screens */
+    /* -webkit-overflow-scrolling: touch;  */
+    /* Snap on the x-axis */
+    scroll-snap-type: x mandatory;
+}
+
+.project img {
+    max-width: 40vw;
+}
+
+.project {
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px grey;
+    max-width: 50vw;
+    gap: 8px;
+    /* min-width: 0; */
+    /* Snap align */
+    scroll-snap-align: start;
+    transition: transform 0.25s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    height: 30vh;
+}
+
+/* For layout analysis */
+header {
+    background-color: blueviolet;
+}
+
+nav {
+    background-color: gold;
+}
+
+.intro {
+    background-color: grey;
+}
+
+.languages {
+    background-color: greenyellow;
+}
+
+footer {
+    background-color: darkolivegreen;
+}
