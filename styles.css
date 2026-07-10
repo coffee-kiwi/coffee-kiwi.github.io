@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    /* font-size: 1.5rem; */
+    background-color: slategrey;
+}
+
 a {
     text-decoration: none;
 }
+
+
 
 /* Display flex and center */
 header,
@@ -14,7 +22,8 @@ nav,
 footer,
 .footer-left,
 .intro,
-.project {
+.project,
+.lang-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,15 +45,15 @@ svg:hover {
 }
 
 header img {
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     object-fit: cover;
 }
 
 header {
     padding: 24px 16px;
-    gap: 24px;
+    gap: 1rem;
 }
 
 nav {
@@ -53,24 +62,39 @@ nav {
     gap: 2%;
 }
 
-.languages {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+.introduction {
+    margin: 24px;
+    padding: 8px;
 }
 
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.attribute {
+    font-size: small;
+}
+
+.lang-right {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    justify-items: center;
+}
+
+
 .languages svg {
-    width: 8rem;
+    width: 5rem;
     height: auto;
 }
 
-.learning {
+/* .learning {
     opacity: 0.75;
-}
+} */
 
 .project-list {
     display: grid;
     grid-auto-flow: column;
-    /* grid-auto-columns: 300px; */
     gap: 1rem;
     padding: 1rem;
     overflow-x: auto;
@@ -83,6 +107,13 @@ nav {
 
 .project img {
     max-width: 40vw;
+}
+
+.project h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .project {
@@ -107,21 +138,21 @@ footer {
 
 /* For layout analysis */
 header {
-    background-color: blueviolet;
+    border: 1px solid lightslategray;
 }
 
 nav {
-    background-color: gold;
+    border: 1px solid lightslategray;
 }
 
 .intro {
-    background-color: grey;
+    border: 1px solid lightslategray;
 }
 
 .languages {
-    background-color: greenyellow;
+    border: 1px solid lightslategray;
 }
 
 footer {
-    background-color: darkolivegreen;
+    border: 1px solid lightslategray;
 }
