@@ -137,22 +137,10 @@ footer {
 }
 
 /* For layout analysis */
-header {
-    border: 1px solid lightslategray;
-}
-
-nav {
-    border: 1px solid lightslategray;
-}
-
-.intro {
-    border: 1px solid lightslategray;
-}
-
-.languages {
-    border: 1px solid lightslategray;
-}
-
+header,
+nav,
+.intro,
+.languages,
 footer {
     border: 1px solid lightslategray;
 }
