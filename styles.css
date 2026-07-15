@@ -4,17 +4,44 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-bg: #f7f7f8;
+    --color-bg-page: #eceef0;
+    --color-surface: #ffffff;
+    --color-surface-alt: #eef1f4;
+    --color-text: #1f2933;
+    --color-text-muted: #5c6b7a;
+    --color-accent: #2b3a55;
+    --color-accent-hover: #3d5075;
+    --color-border: #d8dce0;
+    --color-shadow: rgba(31, 41, 51, 0.15);
+}
+
 html {
     scroll-behavior: smooth;
     /* font-size: 1.5rem; */
-    background-color: slategrey;
+    background-color: var(--color-bg-page);
+    color: var(--color-text);
+}
+
+body {
+    background-color: var(--color-bg);
 }
 
 a {
     text-decoration: none;
+    color: var(--color-accent);
 }
 
+.link-text {
+    transition: background-color 0.25s ease-in, color 0.25s ease-in;
+}
 
+.link-text:hover,
+.link-text:focus {
+    color: var(--color-bg);
+    background-color: var(--color-accent-hover);
+}
 
 /* Display flex and center */
 header,
@@ -33,11 +60,13 @@ svg {
     width: 2rem;
     height: auto;
     border-radius: 8px;
-    transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease;
 }
 
-svg:hover {
-    background-color: lightslategray;
+a svg:hover,
+a svg:focus {
+    background-color: var(--color-accent-hover);
+    fill: var(--color-bg-page);
 }
 
 .icons {
@@ -49,6 +78,7 @@ header img {
     height: 30vw;
     border-radius: 50%;
     object-fit: cover;
+    border: 3px solid var(--color-accent);
 }
 
 header {
@@ -62,6 +92,15 @@ nav {
     gap: 2%;
 }
 
+.card,
+.introduction {
+    /* border: 1px solid var(--color-accent-hover); */
+    /* background-color: var(--color-surface-alt); */
+    border-radius: 8px;
+    padding: 8px;
+    color: var(--color-text);
+}
+
 .introduction {
     margin: 24px;
     padding: 8px;
@@ -69,11 +108,12 @@ nav {
 
 .languages {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .attribute {
     font-size: small;
+    color: var(--color-text-muted);
 }
 
 .lang-right {
@@ -88,9 +128,6 @@ nav {
     height: auto;
 }
 
-/* .learning {
-    opacity: 0.75;
-} */
 
 .project-list {
     display: grid;
@@ -117,10 +154,10 @@ nav {
 }
 
 .project {
+    background-color: var(--color-surface);
     border-radius: 10px;
     padding: 1rem;
-    box-shadow: 0 4px 6px grey;
-    max-width: 50vw;
+    box-shadow: 0 4px 6px var(--color-shadow);
     gap: 8px;
     /* min-width: 0; */
     /* Snap align */
@@ -134,6 +171,8 @@ nav {
 
 footer {
     height: 30vh;
+    background-color: var(--color-surface-alt);
+    color: var(--color-text);
 }
 
 /* For layout analysis */
@@ -142,5 +181,6 @@ nav,
 .intro,
 .languages,
 footer {
-    border: 1px solid lightslategray;
+    border: 1px solid var(--color-border);
 }
+
