@@ -57,6 +57,7 @@ a {
 }
 
 .link-text {
+    border-radius: 8px;
     transition: background-color 0.25s ease-in, color 0.25s ease-in;
 }
 
