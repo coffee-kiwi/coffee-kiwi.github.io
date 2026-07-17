@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
-:root {
+/* ============================================
+   THEME VARIABLES
+   Swap the [data-theme] attribute on <html> to
+   preview different color schemes. See the
+   toggle buttons added in index.html.
+   ============================================ */
+
+:root,
+[data-theme="minimal"] {
+    /* Minimal & Professional */
     --color-bg: #f7f7f8;
     --color-bg-page: #eceef0;
     --color-surface: #ffffff;
@@ -15,6 +24,20 @@
     --color-accent-hover: #3d5075;
     --color-border: #d8dce0;
     --color-shadow: rgba(31, 41, 51, 0.15);
+}
+
+[data-theme="warm"] {
+    /* Warm & Friendly */
+    --color-bg: #fdf3e7;
+    --color-bg-page: #f7e3c9;
+    --color-surface: #fffaf3;
+    --color-surface-alt: #f7dcc4;
+    --color-text: #3d2b1f;
+    --color-text-muted: #8a6a53;
+    --color-accent: #e07a5f;
+    --color-accent-hover: #c9694f;
+    --color-border: #e8c9a5;
+    --color-shadow: rgba(107, 66, 38, 0.2);
 }
 
 html {
@@ -184,3 +207,38 @@ footer {
     border: 1px solid var(--color-border);
 }
 
+/* ============================================
+   TEMPORARY THEME PREVIEW TOGGLE
+   Safe to delete this block once you've picked
+   a scheme — just keep the matching [data-theme]
+   block above (or fold its values into :root).
+   ============================================ */
+
+.theme-switcher {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+    z-index: 999;
+    background-color: var(--color-surface);
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.theme-switcher button {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface-alt);
+    color: var(--color-text);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.theme-switcher button.active {
+    background-color: var(--color-accent);
+    color: var(--color-surface);
+    border-color: var(--color-accent);
+}
