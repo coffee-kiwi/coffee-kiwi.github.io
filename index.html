@@ -162,8 +162,8 @@
 
         function updateActiveButton() {
             document.querySelectorAll('.lang-switcher button').forEach((btn) => {
-                btn.classList.toggle('active', btn.dataset.lanChoice === i18next.language);
-            })
+                btn.classList.toggle('active', btn.dataset.langChoice === i18next.language);
+            });
         }
 
         function render() {
