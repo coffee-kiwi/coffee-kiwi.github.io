@@ -116,9 +116,13 @@ header img {
     object-fit: cover;
     border: 3px solid var(--color-accent);
 }
-
+/* 
 .name {
     
+} */
+
+html[lang="en"] .name-ja {
+    display: none;
 }
 
 header {

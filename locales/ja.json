@@ -1,0 +1,47 @@
+{
+    "intro": {
+        "summary": "誠実で真面目な性格です。良いチームで協力し合いながら、企業に貢献し成果を上げたいと考えています。チームマネジメントやリーダーシップの経験もあります。",
+        "study": "現在は「The Odin Project」の<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" class=\"link-text\">Full Stack Ruby on Rails\u30ab\u30ea\u30ad\u30e5\u30e9\u30e0</a>で学びながら、日々スキルの向上に励んでいます。",
+        "hobbies": "趣味：ハイキング、スノーボード、友人たちとのバーベキュー。今年からは裏庭でガーデニングも始めました。",
+        "projectsLink": "<a href=\"#scroll-projects\" class=\"link-text\">\u203b過去の実績・プロジェクト</a>については以下に記載しています。"
+    },
+    "techStack" : {
+        "heading": "テックスタック",
+        "attributions": "すべてのアイコンは<a href=\"https://devicon.dev/\" class=\"link-text\">devicon</a>から取得しています"
+    },
+    "projects": {
+        "heading": "プロジェクト",
+        "odinbook": {
+            "title": "オーディンブック",
+            "tooltip": "注意：初回読み込みには最大50秒ほどかかる場合があります。エラーが表示された場合は、少し待ってから、画面が表示されるまで「再読み込み」を繰り返してください。",
+            "description": "FacebookやXのようなソーシャルサイトです。Devise、Omniauth、Hotwireを使用し、Render上でPostgreSQLデータベースと共にデプロイされています。"
+        },
+        "battleships": {
+            "title": "海戦ゲーム",
+            "description": "2人用のインタラクティブゲームです。PCやスマートデバイスでプレイできます。"
+        },
+        "chess": {
+            "title": "チェス",
+            "description": "コンソールでプレイ可能なチェスです。チェック／チェックメイト、アンパッサン、キャスリング、ポーンのプロモーションといったルールを計算・適用します。"
+        },
+        "toDoList": {
+            "title": "やることリスト",
+            "description": "インタラクティブなToDoリスト。Webpackとモジュールを使用し、SOLID原則のSRP（単一責任の原則）を実践する"
+        },
+        "homepage": {
+            "title": "ホームページ",
+            "description": "ホームページのレスポンシブデザイン。"
+        },
+        "tictactoe": {
+            "title": "丸バツゲーム",
+            "description": "シンプルなJavaScriptのゲームプロジェクト。"
+        },
+        "flightBooker": {
+            "title": "航空券予約アプリ",
+            "description": "航空券を検索し、航空券を予約するシステム。プロジェクトはバックエンドのみに焦点を当てています。"
+        }
+    },
+    "footer": {
+        "message": "メールやLinkedInを通じて、いつでもお気軽にご連絡ください。"
+    }
+}

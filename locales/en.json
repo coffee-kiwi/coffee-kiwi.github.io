@@ -1,0 +1,47 @@
+{
+    "intro": {
+        "summary": "Honest, hard working. Looking to add value to businesses and work well with a good team. Experienced in leading teams.",
+        "study": "Continually developing skills through <a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" class=\"link-text\">The Odin Project's Full Stack Ruby on Rails curriculum</a>.",
+        "hobbies": "Hobbies: I enjoy hiking, snowboarding, and barbecuing with friends. Started a garden project in the backyard this year.",
+        "projectsLink": "<a href=\"#scroll-projects\" class=\"link-text\">Previous projects</a> listed further below."
+    },
+    "techStack" : {
+        "heading": "Tech Stack",
+        "attributions": "All icons found on <a href=\"https://devicon.dev/\" class=\"link-text\">devicon</a>"
+    },
+    "projects": {
+        "heading": "Projects",
+        "odinbook": {
+            "title": "Odinbook",
+            "tooltip": "Note: First load may take up to 50s - if you see an error, wait a moment and keep clicking reload until it shows!",
+            "description": "A social website like Facebook/X. Uses Devise, Omniauth, hotwire, and deployed with postgres database on Render."
+        },
+        "battleships": {
+            "title": "Battleships",
+            "description": "Interactive game for 2 players. Can play on pc or smartdevice."
+        },
+        "chess": {
+            "title": "Chess",
+            "description": "Chess playable on the console. Calculates and follows rules such as en passant, castling, pawn promotion and check/checkmate."
+        },
+        "toDoList": {
+            "title": "To-do List",
+            "description": "Interactive to-do list. Uses Webpack and modules to practice SRP from Solid."
+        },
+        "homepage": {
+            "title": "Homepage",
+            "description": "Responsive design for a Homepage."
+        },
+        "tictactoe": {
+            "title": "Tic Tac Toe",
+            "description": "A simple Javascript project game."
+        },
+        "flightBooker": {
+            "title": "Flight Booker",
+            "description": "A system to look up flights and book tickets for them. Project focuses on backend only."
+        }
+    },
+    "footer": {
+        "message": "Please don't hesitate to reach out and contact me anytime via email or LinkedIn."
+    }
+}
