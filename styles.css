@@ -276,7 +276,19 @@ footer {
 
 .lang-switcher .active {
     border: 2px solid var(--color-accent);
+    
 } 
+
+/* .lang-switcher button:active {
+    transform: scale(0.95);
+}
+
+.lang-switcher .active {
+    border: 2px solid var(--color-accent);
+    background-color: var(--color-accent);
+    color: var(--color-surface);
+    border-color: var(--color-accent);
+}  */
 
 nav,
 .intro,
