@@ -1,4 +1,7 @@
 {
+    "header": {
+        "details": "Full stack developer building with Rails and JS"
+    },
     "intro": {
         "summary": "Honest, hard working. Looking to add value to businesses and work well with a good team. Experienced in leading teams.",
         "study": "Continually developing skills through <a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" class=\"link-text\">The Odin Project's Full Stack Ruby on Rails curriculum</a>.",

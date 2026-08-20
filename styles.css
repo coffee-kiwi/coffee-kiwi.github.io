@@ -80,7 +80,6 @@ a {
 header,
 nav,
 footer,
-.name,
 .footer-left,
 .intro,
 .project,
@@ -110,11 +109,13 @@ a svg:focus {
 }
 
 header img {
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
+    width: clamp(150px, 50%, 250px);
+    aspect-ratio: 1;
+    /* width: 20vw; */
+    /* height: 20vw; */
+    /* border-radius: 50%; */
     object-fit: cover;
-    border: 3px solid var(--color-accent);
+    /* border: 3px solid var(--color-accent); */
 }
 /* 
 .name {
@@ -126,9 +127,20 @@ html[lang="en"] .name-ja {
 }
 
 header {
-    padding: 24px 16px;
-    gap: 1rem;
+    padding: 24px 24px;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: var(--color-accent);
+    color: var(--color-surface-alt);
 }
+
+
+
+h1 {
+    font-size: 1.6rem;
+}
+
 
 nav {
     flex-direction: row;
