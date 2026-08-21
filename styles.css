@@ -72,6 +72,7 @@ header,
 nav,
 footer,
 .footer-left,
+.projects-link,
 .intro,
 .project,
 .lang-left,
@@ -268,17 +269,6 @@ footer {
     color: var(--color-bg);
 }
 
-/* .lang-switcher button:active {
-    background-color: var(--color-accent);
-    color: var(--color-surface);
-    border-color: var(--color-accent);
-}
-
-.lang-switcher .active {
-    border: 2px solid var(--color-accent);
-    
-}  */
-
 .lang-switcher button:active {
     transform: scale(0.95);
 }
@@ -295,4 +285,64 @@ nav,
 .languages,
 footer {
     border: 1px solid var(--color-border);
+}
+
+/* .email {
+    padding: 4px;
+}
+
+.email:hover {
+    cursor: pointer;
+    background-color: var(--color-accent);
+    border-radius: 10px;
+    color: var(--color-bg-page);
+} */
+
+/* 10. Ghost Button Links - Enhanced */
+        .ghost-link {
+            display: inline-block;
+            text-decoration: none;
+            padding: 8px;
+            border-radius: 50px;
+            /* font-weight: 500; */
+            border: 2px solid var(--color-accent);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        
+        .ghost-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-accent);
+            /* background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-accent) 100%); */
+            z-index: -1;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+        }
+        
+        .ghost-link:hover {
+            color: var(--color-bg);
+            border-color: transparent;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
+        }
+        
+        .ghost-link:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+.email {
+    padding: 4px;
+}
+
+.email:hover {
+    /* cursor: pointer; */
 }
