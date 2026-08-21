@@ -17,7 +17,8 @@
     --color-bg: #f7f7f8;
     --color-bg-page: #eceef0;
     --color-surface: #ffffff;
-    --color-surface-alt: #eef1f4;
+    /* --color-surface-alt: #eef1f4; */
+    --color-surface-alt: #E6EAEF;
     --color-surface-alternating: #f5f7fa;
     --color-text: #1f2933;
     --color-text-muted: #5c6b7a;
@@ -272,12 +273,12 @@ footer {
     border-color: var(--color-accent);
 } 
 
-nav,
+/* nav,
 .intro,
 .languages,
 footer {
     border: 1px solid var(--color-border);
-}
+} */
 
 
 .link-text {
