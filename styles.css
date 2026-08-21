@@ -245,6 +245,16 @@ footer {
     color: var(--color-text);
 }
 
+.footer-left {
+    gap: 8px;
+}
+
+.email-details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .lang-switcher {
     display: flex;
     justify-content: center;
