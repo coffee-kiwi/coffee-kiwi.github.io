@@ -309,7 +309,7 @@ footer {
 } */
 
 /* 10. Ghost Button Links - Enhanced */
-        .ghost-link {
+        .animation-link {
             display: inline-block;
             text-decoration: none;
             padding: 8px;
@@ -322,7 +322,7 @@ footer {
             background-color: transparent;
         }
         
-        .ghost-link::before {
+        .animation-link::before {
             content: '';
             position: absolute;
             top: 0;
@@ -337,14 +337,16 @@ footer {
             transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
         }
         
-        .ghost-link:hover {
+        .animation-link:hover,
+        .animation-link:focus {
             color: var(--color-bg);
             border-color: transparent;
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
         }
         
-        .ghost-link:hover::before {
+        .animation-link:hover::before,
+        .animation-link:focus:before {
             transform: scaleX(1);
             transform-origin: left;
         }

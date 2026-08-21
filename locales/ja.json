@@ -6,7 +6,7 @@
         "summary": "誠実で真面目な性格です。良いチームで協力し合いながら、企業に貢献し成果を上げたいと考えています。チームマネジメントやリーダーシップの経験もあります。",
         "study": "現在は「The Odin Project」の<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" class=\"link-text\">Full Stack Ruby on Rails\u30ab\u30ea\u30ad\u30e5\u30e9\u30e0</a>で学びながら、日々スキルの向上に励んでいます。",
         "hobbies": "趣味：ハイキング、スノーボード、友人たちとのバーベキュー。今年からは裏庭でガーデニングも始めました。",
-        "projectsLink": "<a href=\"#scroll-projects\" class=\"ghost-link\">\u203b過去のプロジェクト</a>"
+        "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">\u203b過去のプロジェクト</a>"
     },
     "techStack" : {
         "heading": "テックスタック",
