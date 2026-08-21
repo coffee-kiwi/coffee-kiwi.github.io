@@ -55,18 +55,6 @@ a {
     color: var(--color-accent);
 }
 
-.link-text {
-    border-radius: 8px;
-    padding: 1px;
-    transition: background-color 0.25s ease-in, color 0.25s ease-in;
-}
-
-.link-text:hover,
-.link-text:focus {
-    color: var(--color-bg);
-    background-color: var(--color-accent-hover);
-}
-
 /* Display flex and center */
 header,
 nav,
@@ -249,12 +237,6 @@ footer {
     gap: 8px;
 }
 
-.email-details {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
 .lang-switcher {
     display: flex;
     justify-content: center;
@@ -308,6 +290,17 @@ footer {
     color: var(--color-bg-page);
 } */
 
+.link-text {
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 25px;
+    border: 2px solid var(--color-accent);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
 /* 10. Ghost Button Links - Enhanced */
         .animation-link {
             display: inline-block;
@@ -322,7 +315,8 @@ footer {
             background-color: transparent;
         }
         
-        .animation-link::before {
+        .animation-link::before
+        .link-text::before {
             content: '';
             position: absolute;
             top: 0;
@@ -338,7 +332,9 @@ footer {
         }
         
         .animation-link:hover,
-        .animation-link:focus {
+        .animation-link:focus,
+        .link-text:hover,
+        .link-text:focus {
             color: var(--color-bg);
             border-color: transparent;
             transform: translateY(-3px);
@@ -351,10 +347,14 @@ footer {
             transform-origin: left;
         }
 
-.email {
+/* .email {
     padding: 4px;
+} */
+
+.center-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* transform-origin: left; */
 }
 
-.email:hover {
-    /* cursor: pointer; */
-}
