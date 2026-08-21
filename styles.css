@@ -341,9 +341,9 @@ footer {
             transform-origin: left;
         }
 
-/* .email {
+.email {
     padding: 4px;
-} */
+}
 
 .center-text {
     display: flex;
