@@ -257,7 +257,8 @@ nav {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
+    max-width: 80%;
 }
 
 .project:has(.tooltip-link:hover, .tooltip-link:focus) .tooltip-bubble {
