@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-/* ============================================
-   THEME VARIABLES
-   Swap the [data-theme] attribute on <html> to
-   preview different color schemes. See the
-   toggle buttons added in index.html.
-   ============================================ */
-
 :root,
 [data-theme="minimal"] {
     /* Minimal & Professional */
@@ -73,19 +66,6 @@ header .card {
     align-items: center;
 }
 
-svg {
-    width: 2rem;
-    height: auto;
-    border-radius: 8px;
-    transition: background-color 0.25s ease;
-}
-
-a svg:hover,
-a svg:focus {
-    background-color: var(--color-accent-hover);
-    fill: var(--color-bg-page);
-}
-
 .icons {
     display: flex;
 }
@@ -95,10 +75,6 @@ header img {
     aspect-ratio: 1;
     object-fit: cover;
 }
-/* 
-.name {
-    
-} */
 
 html[lang="en"] .name-ja {
     display: none;
@@ -113,8 +89,6 @@ header {
     color: var(--color-surface-alt);
 }
 
-
-
 h1 {
     font-size: 1.6rem;
 }
@@ -128,8 +102,6 @@ nav {
 
 .card,
 .introduction {
-    /* border: 1px solid var(--color-accent-hover); */
-    /* background-color: var(--color-surface-alt); */
     border-radius: 8px;
     padding: 8px;
     color: var(--color-text);
@@ -192,7 +164,6 @@ nav {
     padding: 1rem;
     max-width: 80vw;
     margin: 0 auto;
-    /* justify-items: center; */
 }
 
 .project {
@@ -201,9 +172,8 @@ nav {
     padding: 1rem;
     box-shadow: 0 4px 6px var(--color-shadow);
     gap: 8px;
-    transition: transform 0.25s;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     position: relative;
-    /* max-width: 75vw; */
 }
 
 @media (min-width: 700px) {
@@ -279,8 +249,10 @@ nav {
     transition: opacity 0.3s ease-in-out;
 }
 
-.project:hover {
-    transform: scale(1.05);
+.project:hover,
+.project:focus {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px  var(--color-shadow);
 }
 
 footer {
@@ -297,7 +269,6 @@ footer {
     justify-content: center;
     gap: 8px;
     padding: 16px 0;
-    /* background-color: var(--color-bg); */
 }
 
 .lang-switcher button {
@@ -332,6 +303,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     padding: 4px 4px 4px 4px;
+    margin: 0 4px 0 4px;
     border-radius: 8px;
     vertical-align: -9px;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -384,6 +356,18 @@ footer {
         transform: scaleX(1);
         transform-origin: left;
     }
+
+svg {
+    width: 2rem;
+    height: auto;
+    border-radius: 8px;
+    /* transition: background-color 0.25s ease; */
+}
+
+a .link-text:hover,
+a .link-text:focus {
+    transform: translateY(0px);
+}
 
 .email {
     padding: 4px;
