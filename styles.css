@@ -242,6 +242,7 @@ nav {
     transition: opacity 0.3s ease-in-out;
     transition-delay: 0.5s;
     max-width: 80%;
+    z-index: 1;
 }
 
 .project:has(.tooltip-link:hover, .tooltip-link:focus) .tooltip-bubble {
@@ -251,8 +252,19 @@ nav {
 
 .project:hover,
 .project:focus {
+    box-shadow: 0 12px 24px var(--color-shadow);
+}
+
+/* Project screenshot links lift on their own, independent of the
+   card's hover state. */
+.project-image-link {
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+.project-image-link:hover,
+.project-image-link:focus {
     transform: translateY(-6px);
-    box-shadow: 0 12px 24px  var(--color-shadow);
 }
 
 footer {
@@ -310,6 +322,7 @@ footer {
     position: relative;
     overflow: hidden;
     background-color: transparent;
+    z-index: 0;
 }
 
     .animation-link {
@@ -322,6 +335,7 @@ footer {
         position: relative;
         overflow: hidden;
         background-color: transparent;
+        z-index: 0;
     }
     
     .animation-link::before,
@@ -357,17 +371,31 @@ footer {
         transform-origin: left;
     }
 
+/* Icon links (GitHub/LinkedIn svg icons) share the same sweep-fill
+   and color-change effect as text links, but shouldn't lift upward
+   on hover/focus the way text links do. */
+.icon-link:hover,
+.icon-link:focus {
+    transform: none;
+}
+
 svg {
+    display: block;
     width: 2rem;
     height: auto;
     border-radius: 8px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
     /* transition: background-color 0.25s ease; */
 }
 
-a .link-text:hover,
-a .link-text:focus {
-    transform: translateY(0px);
-}
+/* a svg:hover,
+a svg:focus {
+    background-color: var(--color-accent-hover);
+    fill: var(--color-bg-page);
+} */
 
 .email {
     padding: 4px;
@@ -412,4 +440,3 @@ a .link-text:focus {
             transform: scaleX(1);
             transform-origin: bottom left;
         } */
-
