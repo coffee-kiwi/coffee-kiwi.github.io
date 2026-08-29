@@ -292,12 +292,19 @@ footer {
     padding: 4px 4px 4px 4px;
     margin: 0 4px 0 4px;
     border-radius: 8px;
-    vertical-align: -9px;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     overflow: hidden;
     background-color: transparent;
     z-index: 0;
+}
+
+.odin {
+    vertical-align: -0.5em;
+}
+
+.devicon {
+        vertical-align: -0.6em;
 }
 
     .animation-link {
@@ -345,6 +352,10 @@ footer {
         transform: scaleX(1);
         transform-origin: left;
     }
+
+/* .devicon {
+    vertical-align: -8px;
+} */
 
 .icon-link {
     margin-top: 6px;

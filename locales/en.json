@@ -5,13 +5,13 @@
     "intro": {
         "summary": "Honest, hard working. Experienced in leading teams. Looking to add value to businesses and work well with a good team.",
         "experience": "Creating bilingual websites for local businesses.",
-        "study": "Continually developing skills through:<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text\">The Odin Project's</a>Full Stack Ruby on Rails curriculum.",
+        "study": "Continually developing skills through:<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text odin\">The Odin Project's</a>Full Stack Ruby on Rails curriculum.",
         "hobbies": "Hobbies: I enjoy hiking, snowboarding, and barbecuing with friends. Started a garden project in the backyard this year.",
         "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">Previous projects</a>"
     },
     "techStack" : {
         "heading": "Tech Stack",
-        "attributions": "All icons found on <a href=\"https://devicon.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text\">devicon</a>"
+        "attributions": "All icons found on <a href=\"https://devicon.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text devicon\">devicon</a>"
     },
     "projects": {
         "heading": "Projects",
