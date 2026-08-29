@@ -11,7 +11,7 @@
     },
     "techStack" : {
         "heading": "Tech Stack",
-        "attributions": "All icons found on <a href=\"https://devicon.dev/\" class=\"link-text\">devicon</a>"
+        "attributions": "All icons found on <a href=\"https://devicon.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text\">devicon</a>"
     },
     "projects": {
         "heading": "Projects",
