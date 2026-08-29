@@ -351,11 +351,13 @@ footer {
         transform-origin: left;
     }
 
-
-.icon-link:hover,
+.icon-link {
+    margin-top: 6px;
+}
+/* .icon-link:hover,
 .icon-link:focus {
     transform: none;
-}
+} */
 
 svg {
     display: block;
