@@ -186,6 +186,13 @@ nav {
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
+
+    .chess,
+    .homepage,
+    .tictactoe,
+    .flightBooker {
+        justify-content: flex-start;
+    }
 }
 
 .project img {
