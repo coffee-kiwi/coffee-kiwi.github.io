@@ -233,13 +233,18 @@ nav {
 
 .project-image-link {
     display: inline-block;
-    transition: transform 0.25s ease;
-    margin: 0 auto;
 }
 
-.project-image-link:hover,
-.project-image-link:focus {
+.project-image-link img {
+    display: block;
+    transition: transform 0.25s ease;
+    
+}
+
+.project-image-link:hover img,
+.project-image-link:focus img {
     transform: translateY(-6px);
+    /* transition-delay: 0.5s; */
 }
 
 footer {
