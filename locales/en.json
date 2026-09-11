@@ -1,13 +1,13 @@
 {
     "header": {
-        "details": "Full stack developer building with Rails and JS"
+        "details": "Web Developer | Ruby on Rails & JavaScript"
     },
     "intro": {
-        "summary": "Honest, hard working. Experienced in leading teams. Looking to add value to businesses and work well with a good team.",
-        "experience": "Creating bilingual websites for local businesses.",
-        "study": "Continually developing skills through:<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text odin\">The Odin Project's</a>Full Stack Ruby on Rails curriculum.",
-        "hobbies": "Hobbies: I enjoy hiking, snowboarding, and barbecuing with friends. Started a garden project in the backyard this year.",
-        "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">Previous projects</a>"
+        "summary": "I'm a web developer transitioning into software engineering after nearly 10 years in education and staff training in Japan and Taiwan. In my previous career, I trained and onboarded 50+ staff, led teams across multiple schools, and designed and implemented a new training system. That experience taught me to approach problems systematically, communicate clearly, and keep improving the way I work — skills I now bring to software development.",
+        "experience": "Alongside my studies, I'm building bilingual websites for local businesses, working directly with clients to turn their requirements into responsive, practical websites for their customers.",
+        "study": "I'm nearing completion of<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text odin\">The Odin Project's</a>Full Stack Ruby on Rails curriculum, with projects spanning Ruby on Rails, PostgreSQL, JavaScript, testing, deployment, and responsive frontend development.",
+        "hobbies": "Outside of coding, I enjoy hiking, snowboarding, barbecuing with friends, and working on a small backyard garden I started this year.",
+        "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">View projects</a>"
     },
     "techStack" : {
         "heading": "Tech Stack",

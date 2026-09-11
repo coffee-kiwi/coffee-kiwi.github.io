@@ -1,13 +1,13 @@
 {
     "header": {
-        "details": "RailsとJSで開発を行うフルスタック"
+        "details": "Web Developer | Ruby on Rails & JavaScript"
     },
     "intro": {
-        "summary": "誠実で真面目な性格です。良いチームで協力し合いながら、企業に貢献し成果を上げたいと考えています。チームマネジメントやリーダーシップの経験もあります。",
-        "experience": "地域企業のバイリンガル・ウェブサイト制作",
-        "study": "現在は「The Odin Project」の<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text odin\">Full Stack Ruby on Rails\u30ab\u30ea\u30ad\u30e5\u30e9\u30e0</a>で学びながら、日々スキルの向上に励んでいます。",
-        "hobbies": "趣味：ハイキング、スノーボード、友人たちとのバーベキュー。今年からは裏庭でガーデニングも始めました。",
-        "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">\u203b過去のプロジェクト</a>"
+        "summary": "Webエンジニアへのキャリアチェンジを目指し、現在Web開発に取り組んでいます。これまで日本と台湾の教育業界で約10年間勤務し、50名以上のスタッフの研修・オンボーディング、複数スクールのチームリード、新たな研修体制の企画・導入などを経験してきました。そこで培った、課題に対して論理的に取り組む力、分かりやすく伝える力、継続的に改善する姿勢を、現在のWeb開発にも活かしています。",
+        "experience": "学習と並行して、地域の事業者向けにバイリンガルWebサイトを制作しています。クライアントと直接コミュニケーションを取りながら、実際の要望をもとに、利用者にとって使いやすいレスポンシブなWebサイトの制作に取り組んでいます。",
+        "study": "現在は「The Odin Project」の<a href=\"https://www.theodinproject.com/paths/full-stack-ruby-on-rails\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text odin\">Full Stack Ruby on Rails\u30ab\u30ea\u30ad\u30e5\u30e9\u30e0</a>カリキュラムを修了間近まで進めており、Ruby on Rails、PostgreSQL、JavaScript、テスト、デプロイ、レスポンシブなフロントエンド開発などを、実践的なプロジェクトを通して学んでいます。",
+        "hobbies": "コーディング以外では、ハイキング、スノーボード、友人とのバーベキューを楽しんでいます。今年からは自宅の庭でガーデニングにも挑戦しています。",
+        "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">プロジェクトを見る</a>"
     },
     "techStack" : {
         "heading": "テックスタック",
