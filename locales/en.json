@@ -17,32 +17,24 @@
         "heading": "Projects",
         "odinbook": {
             "title": "Odinbook",
-            "tooltip": "Note: First load may take up to 50s - if you see an error, wait a moment and keep clicking reload until it shows!",
-            "description": "A social website like Facebook/X. Uses Devise, Omniauth, hotwire, and deployed with postgres database on Render."
+            "tooltip": "Note: The first load may take up to 50 seconds while the server starts.",
+            "description": "Full-stack social platform built with Rails and PostgreSQL, featuring authentication, profiles, posts, comments, likes, follows, image uploads, and Hotwire interactions."
         },
         "battleships": {
             "title": "Battleships",
-            "description": "Interactive game for 2 players. Can play on pc or smartdevice."
+            "description": "Two-player Battleship game built with modular JavaScript and tested with Jest, featuring interactive ship placement and responsive gameplay."
         },
         "chess": {
             "title": "Chess",
-            "description": "Chess playable on the console. Calculates and follows rules such as en passant, castling, pawn promotion and check/checkmate."
+            "description": "Ruby command-line chess game implementing legal move validation, check/checkmate, castling, en passant, and pawn promotion."
         },
         "toDoList": {
             "title": "To-do List",
-            "description": "Interactive to-do list. Uses Webpack and modules to practice SRP from Solid."
-        },
-        "homepage": {
-            "title": "Homepage",
-            "description": "Responsive design for a Homepage."
+            "description": "Project-based task manager built with modular JavaScript and Webpack, applying separation of concerns and single-responsibility principles."
         },
         "tictactoe": {
             "title": "Tic Tac Toe",
-            "description": "A simple Javascript project game."
-        },
-        "flightBooker": {
-            "title": "Flight Booker",
-            "description": "A system to look up flights and book tickets for them. Project focuses on backend only."
+            "description": "Two-player Tic-Tac-Toe game built with JavaScript, with game-state management, win detection, and player controls."
         }
     },
     "footer": {
