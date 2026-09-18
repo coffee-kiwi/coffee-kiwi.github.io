@@ -115,24 +115,40 @@ nav {
 .languages {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 12px;
+    padding: 4px;
 }
 
 .attribute {
     font-size: small;
     color: var(--color-text-muted);
+    text-align: center;
 }
 
 .lang-right {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(75px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 8px;
 }
 
-.languages svg {
-    width: 5rem;
+.lang-left {
+    min-width: 120px;
+}
+
+.lang-right svg {
+    width: clamp(50px, 4.5rem, 100px);
     height: auto;
+}
+
+@media (min-width: 800px) {
+    .lang-right {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-items: center;
+        gap: 8px;
+    }
+    
 }
 
 .projects-title {
