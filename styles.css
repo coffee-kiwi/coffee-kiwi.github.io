@@ -31,9 +31,16 @@ body {
 }
 
 .intro,
-.my-projects {
+.experience,
+footer {
     background-color: var(--color-bg);
 }
+
+/* .lang-switcher,
+.languages,
+.my-projects {
+    background-color: var(--color-bg);
+} */
 
 ul {
     list-style-type: none;
@@ -115,7 +122,7 @@ nav {
 .languages {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 4px;
+    padding: 1rem;
 }
 
 .attribute {
@@ -137,7 +144,7 @@ nav {
 }
 
 .lang-right svg {
-    width: clamp(50px, 4.5rem, 100px);
+    width: clamp(50px, 4rem, 100px);
     height: auto;
 }
 
@@ -151,6 +158,50 @@ nav {
     
 }
 
+.my-projects,
+.experience{
+    padding: 2rem 0;
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.client-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--color-bg-page);
+}
+
+.client-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 8px;
+}
+
+.client-card a {
+    max-width: 100%;
+}
+
+.client-card img {
+    width: 100%;
+    object-fit: contain;
+    margin: auto 0;
+    /* background-color: red; */
+}
+
+/* .brushup {
+    margin: auto 0;
+} */
+
+
 .projects-title {
     padding: 12px;
     max-width: 80vw;
@@ -162,12 +213,13 @@ nav {
     grid-template-columns: 1fr;
 
     gap: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     max-width: 80vw;
     margin: 0 auto;
 }
 
-.project {
+.project,
+.client-card {
     background-color: var(--color-surface);
     border-radius: 10px;
     padding: 1rem;
@@ -179,6 +231,11 @@ nav {
 }
 
 @media (min-width: 700px) {
+
+    .client-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .project-list {
         grid-template-columns: 1fr 1fr;
     }
@@ -259,14 +316,7 @@ nav {
     /* width: min(100%, 250px); */
     justify-self: center;
     align-self: center;
-    /* background-color: red; */
 }
-
-/* .project-image-hover a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .project-image-link {
     display: block;
@@ -278,7 +328,8 @@ nav {
 
 .project-image-link img {
     display: block;
-    width: 80%;
+    /* width: 80%; */
+    padding: 0.5rem;
     max-width: none;
     /* transition: transform 0.25s ease; */
 }
@@ -490,22 +541,10 @@ footer {
         transform-origin: left;
     }
 
-    /* .icon-link:hover::before,
-    .icon-link:focus-visible::before {
-        fill: var(--color-bg-page);
-    } */
-
-/* .devicon {
-    vertical-align: -8px;
-} */
 
 .icon-link {
     margin-top: 6px;
 }
-/* .icon-link:hover,
-.icon-link:focus {
-    transform: none;
-} */
 
 svg {
     display: block;
@@ -517,8 +556,6 @@ svg {
     overflow: hidden;
     background-color: transparent;
 }
-
-
 
 .email {
     padding: 4px;

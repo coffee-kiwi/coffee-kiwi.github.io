@@ -13,6 +13,13 @@
         "heading": "テックスタック",
         "attributions": "すべてのアイコンは<a href=\"https://devicon.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text devicon\">devicon</a>から取得しています"
     },
+        "clients": {
+        "heading": "クライアントワーク",
+        "brushupstores": {
+            "heading": "Brush Up Stores",
+            "details": "地元の理髪店向けに、日英対応のWebサイトを設計・開発しました。クライアントと直接コミュニケーションを取り、要望やフィードバックを反映しながら、日本語・英語の利用者にとって使いやすいレスポンシブなWebサイトを制作しました。"
+        }
+    },
     "projects": {
         "heading": "プロジェクト",
         "odinbook": {

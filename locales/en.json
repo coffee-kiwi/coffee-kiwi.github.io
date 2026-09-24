@@ -9,9 +9,16 @@
         "hobbies": "Outside of coding, I enjoy hiking, snowboarding, barbecuing with friends, and working on a small backyard garden I started this year.",
         "projectsLink": "<a href=\"#scroll-projects\" class=\"animation-link\">View projects</a>"
     },
-    "techStack" : {
+    "techStack": {
         "heading": "Tech Stack",
         "attributions": "All icons found on <a href=\"https://devicon.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-text devicon\">devicon</a>"
+    },
+    "clients": {
+        "heading": "Client Work",
+        "brushupstores": {
+            "heading": "Brush Up Stores",
+            "details": "Designed and developed a bilingual website for a local barbershop, working directly with the client to translate their preferences and business requirements into a responsive website for Japanese and English-speaking customers."
+        }
     },
     "projects": {
         "heading": "Projects",
